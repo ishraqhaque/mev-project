@@ -1,15 +1,10 @@
 {
   "name": "mev-project",
-  "version": "1.0.36",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bun run --hot src/index.ts"
-  },
-  "dependencies": {
-    "elysia": "latest"
-  },
+  "module": "index.ts",
+  "type": "module",
   "devDependencies": {
-    "bun-types": "latest"
-  },
-  "module": "src/index.js"
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "bun-types": "^0.5.0",
+    "hardhat": "^2.14.0"
+  }
 }

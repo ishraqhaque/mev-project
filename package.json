@@ -1,10 +1,8 @@
 {
-  "name": "mev-project",
-  "module": "index.ts",
-  "type": "module",
+  "dependencies": {
+    "hardhat": "^2.16.1"
+  },
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
-    "bun-types": "^0.5.0",
-    "hardhat": "^2.14.0"
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0"
   }
 }
